@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: "green;";
+  color:#fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+  color:#f00;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a[href$=".pdf"]{
+  color:#673AB7;
+}
+
+a:hover{
+  color:#c55;
+  text-decoration: underline;
+  transition: all ease 1s;
+}
+
+a:hover:after{
+  content:"👾";
+}
+
+h1{
+  font-size: calc(2rem + 4vw);
+  text-align: center;
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+
+.Edu {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ajuste{
+    font-size:120%;
+}
+
+
+/*
+canvas {
+  display: block;
+}
+*/
